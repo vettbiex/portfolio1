@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 22px;
+    background-color: rgb(7, 2, 15);
+    color: white;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+a {
+   padding: 28px;
+   font-size :x-large;
+   font-family: 'Kanit', sans-serif;
+font-weight: 800;
+color: aquamarine;
+}
+
+.contact {
+    color: rgb(51, 51, 189);
+}
+
+main {
+    width: 100%;
+    max-width: 100%;
+    height: 80vh;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+
+.text-cont {
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.svg {
+   display:flex;
+    gap: 10px;
+}
+
+.cont-cont {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 15px;
+}
+
+input {
+    padding: 8px;
+}
+
+.message {
+    padding: 10px 60px 80px 10px;
+}
+
+svg {
+    font-size: 50px;
+}
+
+.last {
+ display: flex;
+justify-content: center;
+gap: 30px;
+ padding: 40px;
+ color: gray;
+  background-color: rgb(14, 31, 31);
+  font-size: large;
+}
